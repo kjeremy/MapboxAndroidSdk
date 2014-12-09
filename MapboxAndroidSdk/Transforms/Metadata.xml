@@ -1,0 +1,44 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk']" name="managedName">Mapbox.MapboxSdk</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.api']" name="managedName">Mapbox.MapboxSdk.Api</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.constants']" name="managedName">Mapbox.MapboxSdk</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.events']" name="managedName">Mapbox.MapboxSdk.Events</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.exceptions']" name="managedName">Mapbox.MapboxSdk.Exceptions</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.geometry']" name="managedName">Mapbox.MapboxSdk.Geometry</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.overlay']" name="managedName">Mapbox.MapboxSdk.Overlay</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.tileprovider']" name="managedName">Mapbox.MapboxSdk.TileProvider</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.tileprovider.constants']" name="managedName">Mapbox.MapboxSdk.TileProvider</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.tileprovider.modules']" name="managedName">Mapbox.MapboxSdk.TileProvider.Modules</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.tileprovider.tilesource']" name="managedName">Mapbox.MapboxSdk.TileProvider.Tilesource</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.tileprovider.util']" name="managedName">Mapbox.MapboxSdk.TileProvider.Util</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.util']" name="managedName">Mapbox.MapboxSdk.Util</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.util.constants']" name="managedName">Mapbox.MapboxSdk.Util</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.views']" name="managedName">Mapbox.MapboxSdk.Views</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.views.util']" name="managedName">Mapbox.MapboxSdk.Views.Util</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.views.util.constants']" name="managedName">Mapbox.MapboxSdk.Views.Util</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.views.safecanvas']" name="managedName">Mapbox.MapboxSdk.Views.SafeCanvas</attr>
+
+  <remove-node path="/api/package[@name='com.almeros.android.multitouch']" />
+  <!--<remove-node path="/api/package[@name='com.almeros.android.multitouch']/class[@name='BaseGestureDetector']" />-->
+  <!--<remove-node path="/api/package[@name='com.almeros.android.multitouch']/class[@name='RotateGestureDetector']" />  
+  <remove-node path="/api/package[@name='com.almeros.android.multitouch']/class[@name='TwoFingerGestureDetector']" />
+  <remove-node path="/api/package[@name='com.almeros.android.multitouch']/class[@name='ShoveGestureDetector']" />-->
+  
+  <remove-node path="/api/package[@name='uk.co.senab.bitmapcache']/class[@name='CacheableBitmapDrawable.CheckStateRunnable']" />  
+  <remove-node path="/api/package[@name='com.mapbox.mapboxsdk.tileprovider']/class[@name='MapTileLayerBase.CacheTask']" />
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.tileprovider.modules']/class[@name='MapTileDownloader.TileLoader']/method[@name='loadTile']" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.overlay']/class[@name='TilesOverlay.ZoomInTileLooper']/method[@name='handleScaleTile' and count(parameter)=5 and parameter[1][@type='java.lang.String'] and parameter[2][@type='int'] and parameter[3][@type='com.mapbox.mapboxsdk.tileprovider.MapTile'] and parameter[4][@type='int'] and parameter[5][@type='int']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.overlay']/class[@name='OverlayManager']/method[@name='get']" name="managedReturn">Java.Lang.Object</attr>
+  
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.views']/class[@name='MapController.PointEvaluator']/method[@name='evaluate']" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.views']/class[@name='MapController.PointEvaluator']/method[@name='evaluate']/parameter[@name='p1']" name="type">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='com.mapbox.mapboxsdk.views']/class[@name='MapController.PointEvaluator']/method[@name='evaluate']/parameter[@name='p2']" name="type">Java.Lang.Object</attr>
+</metadata>
