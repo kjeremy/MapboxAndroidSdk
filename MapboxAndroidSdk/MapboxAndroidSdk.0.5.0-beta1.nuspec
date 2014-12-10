@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>MapboxAndroidSdk</id>
-        <version>0.5.0-beta</version>
+        <version>0.5.0-beta1</version>
         <title>Mapbox Android SDK</title>
         <authors>Mapbox</authors>
         <owners>Jeremy Kolb</owners>
@@ -17,6 +17,8 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="bin\Release\MapboxAndroidSdk.dll" target="lib\MonoAndroid23\MapboxAndroidSdk.dll" />
+      <file src="bin\Release\MapboxAndroidSdk.dll" target="lib\MonoAndroid23\MapboxAndroidSdk.dll" />
+      <file src="bin\Release\MapboxAndroidSdk.pdb" target="lib\MonoAndroid23\MapboxAndroidSdk.pdb" />
+      <file src="bin\Release\MapboxAndroidSdk.xml" target="lib\MonoAndroid23\MapboxAndroidSdk.xml" />
     </files>
 </package>
