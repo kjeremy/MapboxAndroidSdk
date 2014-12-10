@@ -53,7 +53,7 @@
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
     <LibraryProjectZip Include="Jars\MapboxAndroidSDK-release.aar" />
-    <None Include="MapboxAndroidSdk.0.5.0-beta.nuspec">
+    <None Include="MapboxAndroidSdk.0.5.0-beta1.nuspec">
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
@@ -79,6 +79,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\okio-1.0.0.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <JavaDocIndex Include="JavaDocs\index.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
