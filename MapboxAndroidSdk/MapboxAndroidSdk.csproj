@@ -53,7 +53,9 @@
     <None Include="Jars\AboutJars.txt" />
     <None Include="Additions\AboutAdditions.txt" />
     <LibraryProjectZip Include="Jars\MapboxAndroidSDK-release.aar" />
-    <None Include="MapboxAndroidSdk.0.5.0.0.nuspec" />
+    <None Include="MapboxAndroidSdk.0.5.0-beta.nuspec">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
