@@ -4,6 +4,7 @@ com.mapbox.mapboxsdk.constants
 com.mapbox.mapboxsdk.events
 com.mapbox.mapboxsdk.exceptions
 com.mapbox.mapboxsdk.geometry
+com.mapbox.mapboxsdk.offline
 com.mapbox.mapboxsdk.overlay
 com.mapbox.mapboxsdk.tileprovider
 com.mapbox.mapboxsdk.tileprovider.constants
