@@ -1,4 +1,6 @@
 com.almeros.android.multitouch
+com.cocoahero.android.geojson
+com.cocoahero.android.geojson.util
 com.mapbox.mapboxsdk.api
 com.mapbox.mapboxsdk.constants
 com.mapbox.mapboxsdk.events
