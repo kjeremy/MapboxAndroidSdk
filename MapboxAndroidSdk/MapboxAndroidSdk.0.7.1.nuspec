@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>MapboxAndroidSdk</id>
-        <version>0.7.0</version>
+        <version>0.7.1</version>
         <title>Mapbox Android SDK</title>
         <authors>Mapbox</authors>
         <owners>Jeremy Kolb</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Xamarin bindings for the Mapbox Android SDK</description>
         <summary>Xamarin binding for the Mapbox SDK at https://github.com/mapbox/mapbox-android-sdk</summary>
-        <releaseNotes>Based off 0.7.0</releaseNotes>
+        <releaseNotes>Based off 0.7.1</releaseNotes>
         <copyright>2015</copyright>
         <dependencies>
             <dependency id="Xamarin.Android.Support.v4" version="21.0.3.0" />

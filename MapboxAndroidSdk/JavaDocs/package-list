@@ -19,4 +19,8 @@ com.mapbox.mapboxsdk.views
 com.mapbox.mapboxsdk.views.safecanvas
 com.mapbox.mapboxsdk.views.util
 com.mapbox.mapboxsdk.views.util.constants
+com.spatialdev.osm
+com.spatialdev.osm.events
+com.spatialdev.osm.model
+com.spatialdev.osm.renderer
 uk.co.senab.bitmapcache
