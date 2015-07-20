@@ -2,6 +2,11 @@ com.almeros.android.multitouch
 com.cocoahero.android.geojson
 com.cocoahero.android.geojson.util
 com.mapbox.mapboxsdk.api
+com.mapbox.mapboxsdk.clustering
+com.mapbox.mapboxsdk.clustering.algo
+com.mapbox.mapboxsdk.clustering.geometry
+com.mapbox.mapboxsdk.clustering.projection
+com.mapbox.mapboxsdk.clustering.quadtree
 com.mapbox.mapboxsdk.constants
 com.mapbox.mapboxsdk.events
 com.mapbox.mapboxsdk.exceptions
